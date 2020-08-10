@@ -11,3 +11,10 @@ body {
   background-color: lightgrey;
   text-align: center;
 }
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
